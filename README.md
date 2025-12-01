@@ -9,8 +9,8 @@
 
 ## Descripción
 
-[!IMPORTANT]
-Este proyecto es una API REST desarrollada en Java con Spring Boot para realizar web scraping de manera eficiente y escalable. Permite extraer información de páginas web mediante solicitudes HTTP y devolver los datos estructurados en formato JSON.
+> [!IMPORTANT]
+> Este proyecto es una API REST desarrollada en Java con Spring Boot para realizar web scraping de manera eficiente y escalable. Permite extraer información de páginas web mediante solicitudes HTTP y devolver los datos estructurados en formato JSON.
 
 
 ## Características
@@ -21,8 +21,8 @@ Este proyecto es una API REST desarrollada en Java con Spring Boot para realizar
 - Pruebas unitarias y de integración
 - Configuración flexible mediante `application.properties`
 
-[!TIP]
-Puedes adaptar los selectores y la lógica de scraping fácilmente en el servicio centralizado.
+> [!TIP]
+> Puedes adaptar los selectores y la lógica de scraping fácilmente en el servicio centralizado.
 
 ## Estructura del Proyecto
 ```
@@ -50,8 +50,8 @@ api-web-scraping/
 
 ## Instalación y Ejecución
 
-[!NOTE]
-Antes de comenzar, asegúrate de tener instalado Java 17+ y Maven 3.8+.
+> [!NOTE]
+> Antes de comenzar, asegúrate de tener instalado Java 17+ y Maven 3.8+.
 
 ### Prerrequisitos
 - Java 17 o superior
@@ -74,14 +74,14 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-[!WARNING]
-La API estará disponible en `http://localhost:8080`. Cambia el puerto en `application.properties` si es necesario.
+> [!WARNING]
+> La API estará disponible en `http://localhost:8080`. Cambia el puerto en `application.properties` si es necesario.
 
 
 ## Uso de la API
 
-[!CAUTION]
-No envíes demasiadas solicitudes en poco tiempo para evitar bloqueos por parte de los sitios web objetivo.
+> [!CAUTION]
+> No envíes demasiadas solicitudes en poco tiempo para evitar bloqueos por parte de los sitios web objetivo.
 
 ### Endpoint principal
 `POST /api/scrape`
@@ -108,14 +108,14 @@ No envíes demasiadas solicitudes en poco tiempo para evitar bloqueos por parte 
 
 ## Configuración
 
-[!NOTE]
-Edita el archivo `src/main/resources/application.properties` para personalizar la configuración de la API (puerto, logs, etc).
+> [!NOTE]
+> Edita el archivo `src/main/resources/application.properties` para personalizar la configuración de la API (puerto, logs, etc).
 
 
 ## Pruebas
 
-[!TIP]
-Ejecuta las pruebas con:
+> [!TIP]
+> Ejecuta las pruebas con:
 ```powershell
 mvn test
 ```
@@ -123,21 +123,18 @@ mvn test
 
 ## Contribuir
 
-[!IMPORTANT]
-Por favor, sigue el flujo estándar de GitHub para contribuir:
-1. Haz un fork del repositorio
-2. Crea una rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit
-4. Haz push a tu rama y crea un Pull Request
+> [!IMPORTANT]
+> Por favor, sigue el flujo estándar de GitHub para contribuir:
+> 1. Haz un fork del repositorio
+> 2. Crea una rama (`git checkout -b feature/nueva-funcionalidad`)
+> 3. Realiza tus cambios y haz commit
+> 4. Haz push a tu rama y crea un Pull Request
 
-
-## Autor
-- [misraelDev](https://github.com/misraelDev)
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
 
 ---
 
-[!NOTE]
-¡Gracias por contribuir y usar API Web Scraping! Si tienes dudas o sugerencias, abre un issue en GitHub.
+> [!NOTE]
+> ¡Gracias por contribuir y usar API Web Scraping! Si tienes dudas o sugerencias, abre un issue en GitHub.
